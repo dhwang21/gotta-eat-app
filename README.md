@@ -50,7 +50,8 @@ Search Recipe by Ingredient (API Query 1 that return basic recipe information an
 Get Recipe (Second API query that uses recipe id selected by user): https://github.com/301-Project/gotta-eat-app/blob/master/data/step-4-get-recipe.json
 
 ## Authors
-Joyce Liao, Zahra Mohamed, Derrick Hwang and Dave Muench
+Version 1.0 - Joyce Liao, Zahra Mohamed, Derrick Hwang and Dave Muench
+Version 2.0 - Derrick Hwang
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
