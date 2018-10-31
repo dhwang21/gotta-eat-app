@@ -57,6 +57,7 @@ function Recipes(response) {
 
 function getRecipeId(request, response) {
   let url = `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=${request.query.search}&limitLicense=false&number3&ranking=1`;
+  console.log(url, 'test endpoint');
   let recipeArray = [];
 
   return superagent.get(url)
