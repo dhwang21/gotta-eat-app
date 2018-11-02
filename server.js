@@ -26,6 +26,7 @@ app.use(express.static('public'));
 app.get('/', pageLoad);
 app.get('/get-id', getRecipeId);
 app.get('/aboutus', showaboutUs);
+app.get('/test', showTest);
 app.get('/index', showMyrecipes)
 
 app.get('/seeRefrig', result => response.render('/views/pages/searches/inventory', { arrayOfRecipes: result }));   /////// SET UP THE NEW PAGE
@@ -140,6 +141,9 @@ function pageLoad(request, response) {
 
 function showaboutUs(request, response) {
   response.render('aboutus');
+}
+function showTest(request, response) {
+  response.render('test');
 }
 
 function showMyrecipes(request, response) {

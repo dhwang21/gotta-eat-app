@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/301-Project/gotta-eat-app#readme",
   "dependencies": {
+    "choices.js": "^4.0.5",
     "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",

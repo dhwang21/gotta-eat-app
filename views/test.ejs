@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Page</title>
+    <%- include('layout/head') %>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+          <h2>Text inputs</h2>
+          <div data-test-hook="basic">
+            <label for="choices-basic">Basic</label>
+            <input class="form-control" id="choices-basic" type="text">
+          </div>
+  
+          <div data-test-hook="edit-items">
+            <label for="choices-edit-items">Edit items</label>
+            <input class="form-control" id="choices-edit-items" type="text">
+          </div>
+  
+          <div data-test-hook="remove-button">
+            <label for="choices-remove-button">Remove button</label>
+            <input class="form-control" id="choices-remove-button" type="text">
+          </div>
+  
+          <div data-test-hook="unique-values">
+            <label for="choices-unique-values">Unique values</label>
+            <input class="form-control" id="choices-unique-values" type="text">
+          </div>
+  
+          <div data-test-hook="input-limit">
+            <label for="choices-input-limit">Input limit</label>
+            <input class="form-control" id="choices-input-limit" type="text">
+          </div>
+  
+          <div data-test-hook="regex-filter">
+            <label for="choices-regex-filter">Regex filter</label>
+            <input class="form-control" id="choices-regex-filter" type="text">
+          </div>
+  
+          <div data-test-hook="adding-items-disabled">
+            <label for="choices-adding-items-disabled">Add items disabled</label>
+            <input class="form-control" id="choices-adding-items-disabled" type="text">
+          </div>
+  
+          <div data-test-hook="disabled-via-attr">
+            <label for="choices-disabled-via-attr">Disabled via attribute</label>
+            <input class="form-control" id="choices-disabled-via-attr" type="text" disabled>
+          </div>
+  
+          <div data-test-hook="prepend-append">
+            <label for="choices-prepend-append">Prepend/append</label>
+            <input class="form-control" id="choices-prepend-append" type="text">
+          </div>
+  
+          <div data-test-hook="prepopulated">
+            <label for="choices-prepopulated">Pre-populated choices</label>
+            <input class="form-control" id="choices-prepopulated" type="text">
+          </div>
+  
+          <div data-test-hook="placeholder">
+            <label for="choices-placeholder">Placeholder</label>
+            <input class="form-control" id="choices-placeholder" type="text">
+          </div>
+        </div>
+      </div>
+
+    <%- include('layout/footer') %>
+
+</body>
+</html>

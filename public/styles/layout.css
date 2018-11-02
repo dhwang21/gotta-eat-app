@@ -48,10 +48,10 @@
 
 /* INDEX EJS STYLING */
 
-.container{
+.header-container{
 	display: grid;
 	grid-template-columns: 10vw 80vw 10vw;
-	grid-template-rows: 50px 800px;
+	grid-template-rows: 40px 800px  ;
 }
 
 .bookmark{
@@ -119,7 +119,7 @@ button.button-home {
 		font-size: 10px;
 	}
 
-	.container{
+	.header-container{
 		grid-template-columns: 5px 480px 5px;
 		grid-template-rows: 40px 500px;
 	}
